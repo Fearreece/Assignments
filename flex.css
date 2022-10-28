@@ -1,0 +1,201 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family : 'Poppins', sans-serif;
+  
+}
+.top{
+    text-align: center;
+    margin: 50px auto;
+    background: transparent;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.top a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.container{
+    max-width: 80% ;
+    height: 470px;
+    border-radius: 20px;
+    display: flex;
+    margin: 50px auto 0 auto;
+}
+h1{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.one {
+    padding: 2.5em;
+    color: white;
+    width: 33%;
+    font-family : 'Poppins', sans-serif;
+    padding-top: 2.7em;
+    background-color: #e28525;
+    border-radius: 20px 0 0 20px ;
+}
+.two{
+    padding: 2.5em;
+    width: 33%;
+    color: white;
+    font-family : 'Poppins', sans-serif;
+    padding-top: 2.7em;
+    background-color: #016972;
+    
+
+}
+.three {
+    padding: 2.5em;
+    color: white;
+    width: 33%;
+    font-family : 'Poppins', sans-serif;
+    padding-top: 2.7em;
+    background-color: #00403f;
+    border-radius: 0 20px 20px 0;
+
+}
+.one button{
+    margin-top: 15px;
+    background-color: white;
+    padding: .8em 1.2em .8em 1.2em;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    color: #e28525;
+    border: 2px solid white;
+    font-family : 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.one button:hover{
+    background-color: #e28525;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.two button{
+    margin-top: 15px;
+    background-color: white;
+    padding: .8em 1.2em .8em 1.2em;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    color: #016972;
+    border: 2px solid white;
+    font-family : 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.two button:hover{
+    background-color: #016972;
+    border: 2px solid white;
+    color: white;
+}
+.three button{
+    margin-top: 20px;
+    background-color: white;
+    padding: .8em 1.2em .8em 1.2em;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    color: #00403f;
+    border: 2px solid white;
+    font-family : 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.three button:hover{
+    background-color: #00403f;
+    border: 2px solid white;
+    color: white;
+}
+button {
+    font-weight: bold;
+   
+}
+
+
+
+
+@media screen and (max-width: 486px) {
+    .container{
+        display: block;
+        width: 70%;
+        height: 80%;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       text-align: center;
+       padding-right: 0;
+        
+    }
+
+    .one{
+        
+        border-radius: 0 0 0 0;
+        width: 68%;
+    }
+    .two{
+        
+        border-radius: 0 0 0 0;
+        width: 68%;
+    }
+    .three{
+        
+        border-radius: 0 0 0 0;
+        width: 68%;
+        margin-bottom: 10px;
+    }
+
+
+    
+}
+@media screen and (max-width: 712px) {
+    .container{
+        display: block;
+        margin: auto;
+        height: 80%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .one{
+        
+        border-radius: 0 0 0 0;
+    }
+    .two{
+        
+        border-radius: 0 0 0 0;
+    }
+    .three{
+        
+        border-radius: 0 0 0 0;
+        margin-bottom: 10px;
+    }
+
+}
+@media screen and (max-width: 895px){
+    .container{
+        display: block;
+        margin: auto;
+        height: 80%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .one{
+        
+        border-radius: 0 0 0 0;
+    }
+    .two{
+        
+        border-radius: 0 0 0 0;
+    }
+    .three{
+        
+        border-radius: 0 0 0 0;
+        margin-bottom: 10px;
+    }
+
+}
